@@ -1,0 +1,73 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ABOUT THE CODE
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Using the code you will be accessing General purpose Input Output  and advanced property of AVR Microcontroller. This code is a Pre-Compiled Code written in
+Embedded C language using AVRStudio 3 or 4 IDE that uses WinAVR to access the AVR library files.
+Finally .HEX file is generated after successful compailation of the code.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+WHAT DOES THIS CODE DO???
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This code is based on prefabricated connections on the board. The Project name Blinking Text on LCD is using 16 x 2 LCD as the display unit. For Beginners
+it is usually their first LCD code to play with.This code has been written in very user friendly manner with each line of code commented.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+HARDWARE REQUIREMENT
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.  Robosapiens Development Board.
+2.  AVR USBASP Programmer.  
+3.  16 x 2 LCD Display.
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+HARDWARE ASSEMBLING
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assemble the Robot using the respective Assembling PDF.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+CONNECTIONS
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Connect the 16 x 2 LCD display to the board using on board interface provided for LCD.
+2. Connect the Robosapiens Control Circuit to the PC / Laptop using USBASP Programmer and flash the Controller.
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+FLASHING INSTRUCTIONS
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.  Download the project ZIP file and AVR Loader.
+2.  Extract the Zip file.
+3.  Connect the Robosapiens Control Circuit to the PC / Laptop using USBASP Programmer.
+4.  Open AVR Loader.
+5.  Select the desired Microcontroller.
+6.  To run some code on the Hardware the Controller's Fuse Bits needs to be edited by clicking on EDIT FUSES Button. This is valid only for the programs
+    that does not use inbuilt BOOTLOADER.
+7.  Select the .HEX file from the extracted project file by clicking on the Browse Button.
+8.  Click on WRITE button to flash your device.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRECAUTIONS
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. While connecting your Power Supply with the Control Circuit, make sure that the red wire is connected to the Positive Terminal of the PBT Connector and
+   the Black wire to the Negative Terminal and the power LED is glowing.
+2. Make sure the ICs have been biased properly.
+3. While Connecting the peripherals make sure that biasing is done correctly.
+4. If you have connected any INDUCTION DEVICE, DO NOT OPERATE IT MANUALLY.
+5. Do not Short Vcc and Gnd on the Control Circuit. 
+6. The modules which are been provided are fabricated sophistically, So Handle Carefully.
+7. If you are installing AVRStudio and WINAVR make sure everything goes ByDefault.
+8. While flashing the device make sure you have chosen the .Hex file.
+9. Before programming make sure to press the reset button every time before you flash.
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+**NOTE : If you need to customise the code you need to install AVRStudio 3 or 4 and WINAVR. In case the code does not show desired output on Hardware, you
+         can use debugging option available in AVRStudio IDE.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
